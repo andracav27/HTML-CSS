@@ -1,0 +1,41 @@
+.container{
+    height: 1500px;
+}
+.static {
+    position: static;
+    top: 200px;
+}
+
+
+
+.relative{
+    position: relative;
+    /*bottom: 20px;*/
+     
+}
+/* 
+Coloca al elemento a partir del viewport. top, left, bottom, right se ven afectadas segun las dimensiones de la ventana
+*/
+
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+
+}
+/* 
+Coloca el elemento a partir de las dimensiones de su elemento superior que lo engloba
+No toma encuenta el viewport para top, bottom, left, right
+*/
+
+.absolute{ 
+
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+}
